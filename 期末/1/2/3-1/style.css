@@ -1,0 +1,96 @@
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0;
+    width: auto;
+    float: right;
+}
+*{
+    margin: 0;
+    width: 100%;
+}
+li button{
+    width: 70px;
+    height: 70px;
+}
+li button:hover{
+    background-color: rgb(255, 188, 19);
+}
+li button img{
+    width: 60px;
+    height: 60px;
+}
+li{
+    list-style: none;
+   }
+.a{
+    width: auto;
+}
+.A{
+    display: flex;
+    width: auto;
+    position: sticky ;
+    z-index: 1000;
+    background-color: white;
+    top: 0px;
+    left: 0;
+    right: 0;
+}
+.A p{
+    padding: 10px 30px;
+    font-size: 200%;
+}
+.b{ 
+    margin: 0px;
+    font-size: 600%;
+    text-align: center;
+}
+.c{text-align: center;}
+.c img{
+    width: 300px;
+    height: 300px;
+}
+.b a{
+    width: 50px;
+    height: 50px;
+    justify-content: right;
+}
+a img{
+    width: 50px;
+    height: 50px;
+    
+
+}
+.e{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: auto;
+}
+
+audio{
+    width: 500px;
+    margin: 0 520px;
+}
+a{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    border: 1px solid black;
+}
+  
+    .o p{
+        font-size: 30px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        color: black;
+    }
+    a{text-decoration: none;}
+.o:hover{
+    background-color: rgb(255, 188, 19);
+}

@@ -1,0 +1,31 @@
+.container{
+    width: auto;
+    height: 325px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.item{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;    
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+}
+
+p{color: black;}
+
+a{text-decoration: none;}
+
+.item:hover{
+    background-color:rgb(255, 188, 19);
+}
+
+.item p{
+    text-align: center;
+    line-height: 150px;
+    font-size: 500%;
+}

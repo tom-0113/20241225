@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="A">
+        <p>☆初級</p>
+        <div class="a"></div>
+        <nav class="navBg">
+            <ul>
+                <li><button onclick="history.go(-3)"><img src="img/首頁1.png" alt=""></button></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="game-container">
+        
+        <div class="question">
+            A__le
+        </div>
+        <div class="options">
+            <button onclick="checkAnswer('pp')">pp</button>
+            <button onclick="checkAnswer('ab')">ab</button>
+            <button onclick="checkAnswer('cd')">cd</button>
+        </div>
+        <div id="result" style="margin-top: 20px; font-size: 18px;"></div>
+    </div>
+
+    <script>
+        function checkAnswer(answer) {
+            const result = document.getElementById('result');
+            if (answer === 'pp') {
+                result.textContent = '正確！';
+                result.style.color = 'green';
+            } else {
+                result.textContent = '錯誤，請再試一次！';
+                result.style.color = 'red';
+            }
+        }
+    </script>
+    <a href="4/index.html">
+        <div class="o">
+            <p>NEXT</p>
+        </div>
+    </a>
+</body>
+</html>
